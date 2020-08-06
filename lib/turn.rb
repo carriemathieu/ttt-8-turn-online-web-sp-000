@@ -45,4 +45,5 @@ def turn(board)
   if valid_move?(board, index) == TRUE
     move(array, index, value = "X")
     break
+  end
 end
