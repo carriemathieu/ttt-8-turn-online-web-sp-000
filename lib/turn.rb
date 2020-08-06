@@ -44,5 +44,7 @@ def turn(board)
   input = input_to_index(x)
   if input >= 1 || input <= 9
     turn(board)
+  else
+    break
   end
 end
