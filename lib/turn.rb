@@ -43,6 +43,6 @@ def turn(board)
   x = gets.strip
   index = input_to_index(x)
   if valid_move?(board, index) == TRUE
-    move(array, index, value = "X")
+    move(booard, index, value = "X")
   end
 end
